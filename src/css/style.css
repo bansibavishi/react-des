@@ -1,0 +1,95 @@
+body {
+  background-color: #F9F9F9;
+}
+
+nav .container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.main {
+  height: 588px;
+  padding: 31px 0px 0px 0px;
+  gap: 16px;
+}
+.main .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.page-header {
+  width: 1, 378px;
+  height: 54px;
+  justify-content: space-between;
+  padding: 0px, 0px, 34.97px, 0px;
+}
+.page-header h1 {
+  text-transform: capitalize;
+  font-family: Inter;
+  font-size: 29.14px;
+  font-weight: 500;
+  line-height: 36.91px;
+  letter-spacing: -0.2914192975px;
+  text-align: left;
+  color: #171717;
+}
+
+.icon-first {
+  right: 0px;
+  cursor: pointer;
+}
+
+.widgets .widget-title h6 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: left;
+  margin-top: 2px;
+}
+.widgets .widget-title .icon {
+  align-items: center;
+}
+.widgets .card {
+  width: 174px;
+  height: 174px;
+  box-shadow: 0px 4px 7px -5px rgba(0, 0, 0, 0.1215686275);
+  box-shadow: 0px 0px 0px 0px rgba(16, 24, 40, 0.031372549);
+}
+.widgets .card .icon {
+  width: 136px;
+  height: 74px;
+  padding: 0px 104px 42px 0px;
+  justify-content: space-between;
+}
+.widgets .card .content {
+  height: 20px;
+  font-family: Inter;
+  font-size: 13.6px;
+  font-weight: 600;
+  line-height: 19.43px;
+  text-align: right;
+  color: #171717;
+  bottom: 10px;
+  right: 10px;
+}
+
+.modal-header {
+  border-bottom: 0px;
+}
+
+.modal-footer {
+  border-top: 0px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .widgets .card {
+    width: auto;
+    height: auto;
+  }
+}
+@media (max-width: 425) {
+  .widgets .card {
+    width: 0px;
+    height: 0px;
+  }
+}
